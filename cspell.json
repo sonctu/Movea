@@ -1,0 +1,29 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "browserslist",
+        "clienttype",
+        "firestore",
+        "gogoloader",
+        "GROOT",
+        "jike",
+        "Leaderboard",
+        "Movea",
+        "Pornhub",
+        "Recommond",
+        "semibold",
+        "swiper",
+        "tailwindcss",
+        "Testid",
+        "toastify",
+        "tuby",
+        "unsub",
+        "versioncode",
+        "zustand"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
