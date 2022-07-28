@@ -46,7 +46,7 @@ const Header = ({ className = "" }, ref) => {
         </div>
       </div>
       <div
-        className={`fixed top-0 left-0 bottom-0 z-30 hidden bg-white pl-8 pt-8 shadow-lg  transition-all duration-300 dark:bg-primary lg:top-[63px] lg:block lg:pt-6 md:top-0 md:pt-[90px] sm:pt-[80px] sm:pl-6 ${
+        className={`fixed top-0 left-0 bottom-0 z-40 hidden bg-white pl-8 pt-8 shadow-lg  transition-all duration-300 dark:bg-primary lg:top-[63px] lg:block lg:pt-6 md:top-0 md:pt-[90px] sm:pt-[80px] sm:pl-6 ${
           !activeNavbar ? "lg:-translate-x-full" : ""
         }`}
       >

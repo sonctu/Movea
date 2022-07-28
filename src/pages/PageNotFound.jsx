@@ -6,7 +6,7 @@ const PageNotFound = () => {
   const navigate = useNavigate();
   return (
     <div className="flex flex-col items-center justify-center h-screen text-white select-none bg-primary">
-      <div className="mb-8 text-5xl font-semibold">
+      <div className="mb-8 text-5xl font-semibold sm:mb-3 sm:px-1 sm:text-xl">
         Oops! 404 - Page Not Found
       </div>
       <Button
