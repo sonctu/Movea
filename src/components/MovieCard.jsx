@@ -44,7 +44,7 @@ const MovieCard = ({ movie, plus = true, children }) => {
   }, [id, category, domainType]);
   if (!movie) return null;
   return (
-    <div className="card-container">
+    <div className="card-container relative h-[280px] w-[190px] select-none lg:w-full md:h-[230px]">
       {plus && (
         <ButtonPlus
           className="top-2 right-2 sm:h-7 sm:w-7 sm:p-1"

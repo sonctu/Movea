@@ -4,9 +4,9 @@ import Skeleton from "react-loading-skeleton";
 
 const HeroSkeleton = () => {
   return (
-    <div className="md:mt-16 w-full">
-      <Skeleton className="h-8 !w-[100px] my-5"></Skeleton>
-      <div className="hero-list">
+    <div className="w-full md:mt-16">
+      <Skeleton className="my-5 h-8 !w-[100px]"></Skeleton>
+      <div className="hero-list h-[300px] w-full md:h-[320px] md:pt-3 sm:h-[200px] sm:pt-0">
         <Swiper
           spaceBetween={20}
           className="h-full rounded-xl"

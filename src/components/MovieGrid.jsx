@@ -41,7 +41,7 @@ const MovieGrid = ({ data, sectionIndex, loading }) => {
         hasMore={!error && results?.slice(-1)?.[0]?.length !== 0}
         loader={
           <div className="flex items-center justify-center py-4">
-            <div className="w-6 h-6 rounded-full border-2 border-secondary border-r-transparent animate-spin"></div>
+            <div className="w-6 h-6 border-2 rounded-full animate-spin border-secondary border-r-transparent"></div>
           </div>
         }
         className="!overflow-hidden"
@@ -65,7 +65,10 @@ const MovieGrid = ({ data, sectionIndex, loading }) => {
             new Array(12)
               .fill(0)
               ?.map((_, index) => (
-                <Skeleton key={index} className="card-container"></Skeleton>
+                <Skeleton
+                  key={index}
+                  className="card-container relative h-[280px] w-[190px] select-none lg:w-full md:h-[230px]"
+                ></Skeleton>
               ))}
         </div>
       </InfiniteScroll>

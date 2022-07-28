@@ -6,7 +6,7 @@ const ListSkeleton = () => {
   const data = new Array(10).fill(0);
   return (
     <div>
-      <Skeleton className="h-8 !w-[100px] my-5"></Skeleton>
+      <Skeleton className="my-5 h-8 !w-[100px]"></Skeleton>
       <Swiper
         spaceBetween={20}
         breakpoints={{
@@ -34,7 +34,7 @@ const ListSkeleton = () => {
         {data?.length > 0 &&
           data.map((_, index) => (
             <SwiperSlide key={index}>
-              <Skeleton className="card-container"></Skeleton>
+              <Skeleton className="card-container relative h-[280px] w-[190px] select-none lg:w-full md:h-[230px]"></Skeleton>
             </SwiperSlide>
           ))}
       </Swiper>

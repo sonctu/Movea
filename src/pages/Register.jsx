@@ -34,7 +34,7 @@ const Register = () => {
     <FormLayout>
       <form
         onSubmit={handleSubmit(handleNewUser)}
-        className="form-wrapper"
+        className="form-wrapper mx-auto w-full max-w-[500px]"
         autoComplete="off"
       >
         <div className="text-5xl font-semibold text-center text-primary dark:text-white sm:text-3xl">

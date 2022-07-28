@@ -13,7 +13,7 @@ const Hero = ({ data }) => {
         <Title>Trending now</Title>
         <WatchAll></WatchAll>
       </div>
-      <div className="hero-list">
+      <div className="hero-list h-[300px] w-full md:h-[320px] md:pt-3 sm:h-[200px] sm:pt-0">
         <Swiper
           spaceBetween={20}
           className="h-full rounded-xl"
